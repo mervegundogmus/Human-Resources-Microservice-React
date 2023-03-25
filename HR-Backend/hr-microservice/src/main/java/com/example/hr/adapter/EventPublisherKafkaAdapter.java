@@ -5,7 +5,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
-
 import com.example.hr.application.business.events.EmployeeEvent;
 import com.example.hr.infrastructure.EventPublisher;
 import com.fasterxml.jackson.core.JsonProcessingException;
